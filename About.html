@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>About</title>
+<div id="slider">
+    <figure>
+        <img src="img/image.jpg">
+        
+    </figure>
+</div>
+
+
+  <div class="heading"> 
+  <link rel="stylesheet" type="text/css" href="about.css"/>
+</head>
+</div>
+
+
+<body>
+
+
+        
+
+<div class="slider">
+<div class="slides">
+
+    <input type="radio" name="radio-btn" id="radio1">
+    <input type="radio" name="radio-btn" id="radio2">
+    <input type="radio" name="radio-btn" id="radio3">
+    <input type="radio" name="radio-btn" id="radio4">
+
+    <div class="slide first">
+        <img src="image.jpg" alt="">
+    </div>
+
+    <div class="slide">
+        <img src="Tablet-Banner-1200x750-IMG-NYUAD-CR-Catalin-Marin-Photography-1-EDITED.jpg" alt="">
+    </div>
+
+    <div class="slide">
+        <img src="image.img-2.jpg" alt="">
+    </div>
+
+    <div class="slide">
+        <img src="20151108-Library-005-scaled.jpg" alt="">
+    </div>
+
+
+    <div class="navigation-auto">
+    <div class="auto-btn1"></div>
+    <div class="auto-btn2"></div>
+    <div class="auto-btn3"></div>
+    <div class="auto-btn4"></div>
+</div> 
+
+</div>
+
+<div class="navigation-manual">
+<label for="radio1" class="manual-btn"></label>
+<label for="radio2" class="manual-btn"></label>
+<label for="radio3" class="manual-btn"></label>
+<label for="radio4" class="manual-btn"></label>
+</div>
+
+
+
+
+<script type="text/javascript">
+    var counter = 1;
+    setInterval(function(){
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter > 4){
+            counter = 1;
+        }
+    }, 5000);
+</script>
+
+
+    
+    
+    <div class="caption">
+        <p>Welcome to our blog, a lens to the lives of students navigating their journey at NYUAD. Here we aim to provide a glimpse of reality, personal experiences, and transformations in our community. Whether you're considering NYUAD as your future academic home or you are the vibrant campus life and diversity. Through these diaries, you will get to explore what it's truly like to be a student at NYUAD, offering guides, advice and personal stories along the way.
+        </p>
+
+    </div>
+
+</div>
+  
+
+
+
+
+</html>
